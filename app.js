@@ -5,3 +5,6 @@ http.createServer(function (req, res) {
   res.end('Meu primeiro app NodeJS!');
   console.log('Servidor rodando em http//localhost:8080/')
 }).listen(8080); 
+
+console.log('This example is different!');
+console.log('The result is displayed in the Command Line Interface'); 
